@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>encriptador</title>
+</head>
+<body background="img/developer.jpg">
+    <header class="encabezado">
+        <div class="logo">
+            <img class="logoimg" src="img/Vector (1).png" >
+            <h1 class="tittle">Encriptador de mensajes</h1>
+        </div>
+    </header>
+    <main>
+       <section class="input">
+          <div class="contenido-input ">
+             <textarea id = "cuadro" class="cuadro"   cols="30" rows="10"   placeholder="ingrese el texto  aqui"></textarea>
+           </div>
+          <div class="evento" >
+              <textarea  id="mensaje" class="mensaje" cols="20" rows="10" ></textarea>
+             <label  for="mensaje" class="mensaje-placeholder">Ningún mensaje fue encontrado<br>Ingresa el texto que deseas Encriptar o Desencriptar</label>
+             <button id="btn-copiar" class="btn-copiar" >copiar</button>
+          </div>
+       </section>     
+       <section class="boton-alerta">
+
+           <div class="alerta">
+
+              <p ><img src="img/alerta.png" alt="logo-mensaje">Solo letras minusculas y sin acentos.</p>
+
+            </div>
+
+          <div class="button">
+
+              <button id="btn-encriptar" class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button> 
+               <button id="btn-desencriptar" class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>  
+          </div>
+
+      </section>
+    </main>
+    <footer>
+
+        <p class="creador">CREADO POR ISABEL CAMACHO DEVELOPER </p>
+
+       <nav class="nav-links">
+
+          <a  href="https://github.com/camamari/Challenger-one-5.git"  target="_blank">
+          <img src="img/logo-git.png" alt="Logo de Git" class="git" >
+  
+          <a href="https://www.linkedin.com/in/isabel-camacho-b61315182/" target="_blank">
+          <img src="img/linkedin.png" alt="Logo de linkedin" class="linkedin">
+
+       </nav>
+    
+    </footer>
+    <script src = "script.js"></script>
+
+</body>
+</html>
